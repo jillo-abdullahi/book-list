@@ -1,4 +1,4 @@
-import React, { useContext, useState} from 'react';
+import React, { useContext, useState } from 'react';
 import { BookContext } from '../contexts/BookContext';
 
 const BookForm = () => {
@@ -12,6 +12,7 @@ const BookForm = () => {
         setTitle('');
         setAuthor('');
     }
+
     return (
         <form onSubmit={handleSubmit}>
             <input
